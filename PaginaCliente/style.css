@@ -6,13 +6,13 @@
 		border-box: con esto ahora el padding y el border son incluidos de forma 
 								global
 */
-*{
-	background-color: orange;
+* {
+	background-color: aqua;
 	box-sizing: border-box;
 	font-family: 'Courier New', Courier, monospace;
 }
 
-body{
+body {
 	padding: 0%;
 }
 
@@ -20,7 +20,7 @@ body{
 /*
  * Aqui se encuentra los elementos de encabezado
  */
-header .titulo{
+header .titulo {
 	text-align: center;
 	border: 2px solid black;
 	margin: 0%;
@@ -30,7 +30,7 @@ header .titulo{
 /*
  * Aqui se encuentra los elementos de section
  */
-section .enlaces{
+section .enlaces {
 	margin: 0px;
 	padding: 0px;
 	border: 2px solid black;
@@ -40,7 +40,7 @@ section .enlaces{
 	height: 300px;
 }
 
-section .informacion{
+section .informacion {
 	margin: 0px;
 	border: 2px solid black;
 	border-top: 0px;
@@ -50,21 +50,20 @@ section .informacion{
 	height: 300px;
 }
 
-section ul{
+section ul {
 	list-style-type: none;
 	padding: 0%;
 	margin: 0%;
 }
 
-section li{
+section li {
 	float: left;
 	width: 100%;
 	border-bottom: 1px solid black;
-	background-color: green;
 }
 
-section a{
-	background-color: red;
+section a {
+	background-color: green;
 	float: inline-start;
 	width: 100%;
 	text-align: center;
@@ -72,14 +71,14 @@ section a{
 	font-size: x-large;
 }
 
-section a:hover{
+section a:hover {
 	color: white;
 }
 
 /*
  * Aqui se encuentra los elementos del footer
  */
-footer .copyright{
+footer .copyright {
 	border: 2px solid black;
 	text-align: center;
 	padding: 20px;
