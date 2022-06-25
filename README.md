@@ -7,6 +7,6 @@
 
 | Comandos  | Para que sirve |
 |---------- |----------------|
-| git diff        | Permite ver las diferencias entre dos conjuntos de entrada |
+| git diff        | Permite ver las diferencias entre dos conjuntos de archivos o commits |
 | git reset       | Permite eliminar un commit de forma soft, es decir no borra las modificaciones|
 | git reset --hard| Permite eliminar un commit de forma hard, es decir esto borra todas las modificaciones realizadas sin posibilidad de recuperar |
