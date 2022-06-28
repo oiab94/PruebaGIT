@@ -64,12 +64,13 @@ section li{
 }
 
 section a{
-	background-color: red;
+	background-color: pink;
 	float: inline-start;
 	width: 100%;
 	text-align: center;
 	text-decoration: none;
 	font-size: x-large;
+  font-family: monospace;
 }
 
 section a:hover{
