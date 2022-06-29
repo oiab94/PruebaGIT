@@ -25,3 +25,4 @@
 |---|---|
 | | **FUSIÓN RAMAS** |
 |git merge (ramaAFusionar) | Permite tomar las lineas creadas en otra rama y fusionarlas a la rama actual |
+| git merge --abort | Permite abortar la fusión entre ramas |
