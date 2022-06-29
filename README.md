@@ -26,3 +26,8 @@
 | | **FUSIÓN RAMAS** |
 |git merge (ramaAFusionar) | Permite tomar las lineas creadas en otra rama y fusionarlas a la rama actual |
 | git merge --abort | Permite abortar la fusión entre ramas |
+|---|---|
+| | **PUSH/PULL** |
+| git remote (nombreRemoto) (direccionURL) | Permite crear la conexion con un repositorio |
+| git push (nombreRemoto) (branch)| Permite enviar la rama especificado, junto con los commits y cambios necesarios al remote designado |
+| git push (nombreRemoto) --all| Permite enviar todas las ramas, al remote designado |
