@@ -11,25 +11,25 @@
 
 | Comandos  | Para que sirve |
 |---------- |----------------|
-| git diff  | Permite ver las diferencias entre dos conjuntos de archivos o commits |
+| `git diff`  | Permite ver las diferencias entre dos conjuntos de archivos o commits |
 |---|---|
 | **DESHACER O ELIMINAR COMMITS** | |
-| git reset | Permite eliminar un commit de forma soft, es decir no borra las modificaciones |
-| git reset --hard | Permite eliminar un commit de forma hard, es decir esto borra todas las modificaciones realizadas sin posibilidad de recuperar |
-| git revert | Permite revertir un commit sin necesidad de borrar los commit anterior, esta operación es más segura que reset. |
-| git revert --no-commit | Permite revertir varios commmits hasta que le demos la opcion de continue |
+| `git reset` | Permite eliminar un commit de forma soft, es decir no borra las modificaciones |
+| `git reset` --hard | Permite eliminar un commit de forma hard, es decir esto borra todas las modificaciones realizadas sin posibilidad de recuperar |
+| `git revert` | Permite revertir un commit sin necesidad de borrar los commit anterior, esta operación es más segura que reset. |
+| `git revert` --no-commit | Permite revertir varios commmits hasta que le demos la opcion de continue |
 |---|---|
 | **RAMAS** | |
-| git branch | Muestra todas las ramas del repo o tambien permite la creación una nueva rama |
-| git checkout | Permite realizar el cambio entre ramas |
-| git checkout -b | Crea una nueva rama y realiza el cambio a esa rama |
-| git branch -m (nombre) (nuevoNombre) | Permite cambiar el nombre de una rama |
+| `git branch` | Muestra todas las ramas del repo o tambien permite la creación una nueva rama |
+| `git checkout` | Permite realizar el cambio entre ramas |
+| `git checkout` -b | Crea una nueva rama y realiza el cambio a esa rama |
+| `git branch` -m (nombre) (nuevoNombre) | Permite cambiar el nombre de una rama |
 |---|---|
 | **FUSIÓN RAMAS** | |
-|git merge (ramaAFusionar) | Permite tomar las lineas creadas en otra rama y fusionarlas a la rama actual |
-| git merge --abort | Permite abortar la fusión entre ramas |
+| `git merge` (ramaAFusionar) | Permite tomar las lineas creadas en otra rama y fusionarlas a la rama actual |
+| `git merge` --abort | Permite abortar la fusión entre ramas |
 |---|---|
 | **PUSH/PULL** | |
-| git remote (nombreRemoto) (direccionURL) | Permite crear la conexion con un repositorio |
-| git push (nombreRemoto) (branch)| Permite enviar la rama especificado, junto con los commits y cambios necesarios al remote designado |
-| git push (nombreRemoto) --all| Permite enviar todas las ramas, al remote designado |
+| `git remote` (nombreRemoto) (direccionURL) | Permite crear la conexion con un repositorio |
+| `git push` (nombreRemoto) (branch)| Permite enviar la rama especificado, junto con los commits y cambios necesarios al remote designado |
+| `git push` (nombreRemoto) --all| Permite enviar todas las ramas, al remote designado |
