@@ -33,3 +33,6 @@
 | `git remote` (nombreRemoto) (direccionURL) | Permite crear la conexion con un repositorio |
 | `git push` (nombreRemoto) (branch)| Permite enviar la rama especificado, junto con los commits y cambios necesarios al remote designado |
 | `git push` (nombreRemoto) --all| Permite enviar todas las ramas, al remote designado |
+|`git clone` (direcionURL)|Permite clonar un repositorio|
+|`git pull` (nombreRemoto) (branch)|Pemite descargar las actualizaciones del repositorio|
+|`git pull` --rebase (nombreRemoto) (branch)|Mismo que lo anterior pero obvia el commit de fusión de rama|
