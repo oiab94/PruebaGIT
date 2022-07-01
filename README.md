@@ -6,6 +6,8 @@
 - [Crear, modificar, eliminar branches](https://www.youtube.com/watch?v=j0U9jBmP3LM&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=9)
 - [Como resolver conflictos](https://www.youtube.com/watch?v=CzOj076YGRY&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=14)
 - [Como hacer push](https://www.youtube.com/watch?v=jgeLj45G0tk&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=19)
+- [Como clonar y hacer pull](https://www.youtube.com/watch?v=t8O7dMDD5nw&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=20)
+- [Como hacef pull con rebase](https://www.youtube.com/watch?v=r-PTFYVmGNo&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=21)
 
 # Comandos 
 
